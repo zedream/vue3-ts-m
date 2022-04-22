@@ -1,0 +1,3 @@
+interface ModuleStateNav {
+  path: string
+}

@@ -1,0 +1,19 @@
+.content {
+  .block {
+    text-align: justify;
+    font-size: 28px;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .title {
+      color: #323233;
+      line-height: 44px;
+      font-weight: 600;
+    }
+    .text {
+      color: #646566;
+      line-height: 44px;
+    }
+  }
+}

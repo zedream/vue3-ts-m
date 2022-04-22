@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="750px" height="150px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-2.9%" y="-13.4%" width="105.7%" height="126.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="-6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-10备份-4" fill="#FFFFFF">
+            <g id="编组-10备份-3">
+                <g id="编组-13">
+                    <g id="编组-11">
+                        <g id="编组-5" transform="translate(0.000000, 129.000000)">
+                            <rect id="矩形" x="0" y="0" width="750" height="38"></rect>
+                        </g>
+                        <g id="编组-6">
+                            <g id="编组-10" filter="url(#filter-1)">
+                                <rect id="形状结合" x="0" y="31" width="750" height="98"></rect>
+                                <path d="M414,31 C430.666667,29.6666667 442.333333,26.6666667 449,22 C455.666667,17.3333333 462,13.6666667 468,11 L456,26 L451,31 C447.666667,32.3333333 445.666667,33 445,33 C444.333333,33 434,32.3333333 414,31 Z" id="路径-3备份-3" transform="translate(441.000000, 22.000000) scale(-1, 1) translate(-441.000000, -22.000000) "></path>
+                                <path d="M280,31 C296.666667,29.6666667 308.333333,26.6666667 315,22 C321.666667,17.3333333 328,13.6666667 334,11 L322,26 L317,31 C313.666667,32.3333333 311.666667,33 311,33 C310.333333,33 300,32.3333333 280,31 Z" id="路径-3备份-4"></path>
+                                <circle id="椭圆形" cx="375" cy="80" r="80"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

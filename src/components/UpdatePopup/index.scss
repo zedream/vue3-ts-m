@@ -1,0 +1,18 @@
+.update-content {
+  max-height: 520px;
+  overflow: auto;
+  .block {
+    .li {
+      text-indent: 28px;
+    }
+    .title {
+      font-size: 28px;
+      font-weight: 600;
+      color: #323233;
+      margin-bottom: 12px;
+    }
+  }
+  .mt-12 {
+    margin-top: 12px;
+  }
+}
